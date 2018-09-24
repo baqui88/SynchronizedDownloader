@@ -19,7 +19,7 @@ String qLink = "http://nguyenbaqui.com/files/something.exe";
 String saveDirectory = "";
 String newName = "myApp.exe"
 
-DownloadMission mission = new DownloadMission(qQString,saveDirectory, newName);
+DownloadMission mission = new DownloadMission(qLink,saveDirectory, newName);
 
 //Step2: deliver this mission to manager
 
